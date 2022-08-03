@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi tienda online con Sass</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./imgs/nature.png" type="image/x-icon">
+    <!-- BOOTSTRAP -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- MI CSS -->
+    <link rel="stylesheet" href="./css/estilo.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbarIndex">
+        <div class="container-fluid">
+            <a class="navbar-brand navLogo" href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Logo_TV_2015.png/200px-Logo_TV_2015.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/cursos.html">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/locales.html">Locales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="text-center sectionUno displayUno" >
+            <div data-aos="fade-right" data-aos-duration="1800">
+                <h1 class="fw-bold">Cosmética basada en plantas</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">La cosmética natural basada en las plantas que se complementan entre sí para brindarnos el mejor producto para armonizar nuestro cuerpo. Aura crea líneas de cosmética natural herbal fabricadas con plantas de países Nórdicos de salvajes y verdes praderas, su completa gama para el cuidado capilar, corporal, manos y pies, hacen de esta línea una experiencia inolvidable.</p>
+                    <div class="d-grid gap-3 d-flex justify-content-sm-center botonesCentro">
+                        <button type="button" class="btn btn-lg px-4 gap-3 botonUno botonB">Productos</button>
+                        <button type="button" class="btn btn-outline-light btn-lg px-4 botonB">Locales</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container sectionDos">
+        <h3>Hola! Somos Aura</h3>
+        <p>Las plantas o hierbas medicinales son el remedio de belleza más noble, accesible y efectivo por excelencia. Sus propiedades las han hecho únicas en el mundo, tanto es así que la preparación y utilización de recetas a base de plantas medicinales remonta desde hace unos 5000 a 10 000 años, considerada como la forma más antigua de sanación en el mundo. Dicho sistema de medicina tradicional originario de la India se denomina Ayurveda que significa “ciencia de la vida”.</p>
+    </section>
+
+    <section class="sectionTres">
+        <img src="https://images.unsplash.com/photo-1624454002302-36b824d7bd0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+            alt="gotero aceite facial">
+        <div class="sectionTresTexto container" data-aos="fade-left" data-aos-duration="1800">
+            <h3>Ingredientes Conscientes</h3>
+            <p>Los productos cosméticos semielaborados utilizados en preparaciones naturales tienen funciones definidas. Sin embargo, debido al hecho de que cada materia prima natural tiene una composición rica y varias propiedades, puede cumplir varias funciones al mismo tiempo. Los ingredientes más importantes que se utilizan en la cosmética natural son los antioxidantes, los agentes emulsionantes, los hidrolatos y extractos de plantas, los humectantes, los exfoliantes y los tensioactivos.</p>
+            <button type="button" class="btn px-4 gap-3 botonUno">Ver más</button>
+        </div>
+    </section>
+
+    <section class="productosDestacados">
+        <h3>Productos Destacados</h3>
+        <div class="d-flex flex-row justify-content-around flex-wrap gap-4">
+            <div class="card" style="width: 20rem;">
+                <img src="https://images.pexels.com/photos/4041391/pexels-photo-4041391.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="foto producto 1">
+                <div class="card-body">
+                    <h5 class="card-title">Crema Facial | $2.000</h5>
+                    <p class="card-text">Some quick text on the card title.</p>
+                    <a href="#" class="btn px-4 gap-3 botonUno">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+                <img src="https://images.pexels.com/photos/6738804/pexels-photo-6738804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="foto producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Vela | $1.200</h5>
+                    <p class="card-text">Some quick text on the card title.</p>
+                    <a href="#" class="btn px-4 gap-3 botonUno">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+                <img src="https://images.pexels.com/photos/7262687/pexels-photo-7262687.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="foto producto 3">
+                <div class="card-body">
+                    <h5 class="card-title">Aceite Corporal | $3.500</h5>
+                    <p class="card-text">Some quick text on the card title.</p>
+                    <a href="#" class="btn px-4 gap-3 botonUno">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+                <img src="https://images.pexels.com/photos/4202924/pexels-photo-4202924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="foto producto 4">
+                <div class="card-body">
+                    <h5 class="card-title">Jabón Corporal | $900</h5>
+                    <p class="card-text">Some quick text on the card title.</p>
+                    <a href="#" class="btn px-4 gap-3 botonUno">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid divFooter">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3 footerEsp">
+                    <h5>Menú</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Inicio</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Nosotros</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Productos</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Cursos</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Locales</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Contacto</a></li>
+                    </ul>
+                </div>
+    
+                <div class="col-6 col-md-2 mb-3 footerEsp">
+                    <h5>Contacto</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Mail</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Teléfono</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Locales</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Trabajá con nosotros</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3 footerEsp">
+                    <h5>Redes Sociales</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Facebook</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Instagram</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0">TikTok</a></li>
+                    </ul>
+                </div>
+    
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                        <h5>Subscrite a nuestro newsletter</h5>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Dirección de email</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email">
+                            <button class="btn botonUno" type="button">Subscribirse</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <!-- JAVASCRIPT BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

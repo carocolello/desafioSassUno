@@ -1,0 +1,18 @@
+.sectionTres {
+    display: flex;
+    flex-direction: row;
+    background-color: $colorIngredientes;
+    color: #fff;
+
+    img {
+        width: 50%;
+    }
+}
+
+.sectionTresTexto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}

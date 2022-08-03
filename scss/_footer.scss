@@ -1,0 +1,12 @@
+.divFooter {
+    background-color: $colorFooter;
+    color: #fff;
+}
+
+.footerEsp ul li a {
+    color: #fff;
+
+    &:hover {
+        color: rgb(220, 219, 219);
+    }
+}

@@ -1,0 +1,18 @@
+.sectionUno {
+    background: linear-gradient(#d0ac8d3d, #d0ac8d00), url("https://images.unsplash.com/photo-1611255550543-b5ecb01dfddc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 120px);
+}
+
+.displayUno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.botonUno {
+    background-color: $colorNav;
+    color: #fff;
+}
