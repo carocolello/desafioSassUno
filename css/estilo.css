@@ -1,131 +1,121 @@
 * {
-    margin: 0;
-    padding: 0;
-}
+  margin: 0;
+  padding: 0; }
 
 body {
-    background-color: #e3d9c7;
-    font-family: 'Roboto', sans-serif;
-}
+  background-color: #e3d9c7;
+  font-family: 'Roboto', sans-serif; }
 
 .navLogo img {
-    width: 120px;
-}
+  width: 120px; }
 
 .navbarIndex {
-    background-color: #d0ac8d;
-    box-shadow: rgba(33, 35, 38, 0.3) 0px 10px 10px -10px;
-}
+  background-color: #d0ac8d;
+  box-shadow: rgba(33, 35, 38, 0.3) 0px 10px 10px -10px; }
 
 .sectionUno {
-    background: linear-gradient(#d0ac8d3d, #d0ac8d00), url("https://images.unsplash.com/photo-1611255550543-b5ecb01dfddc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: calc(100vh - 120px);
-}
+  background: linear-gradient(#d0ac8d3d, #d0ac8d00), url("https://images.unsplash.com/photo-1611255550543-b5ecb01dfddc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: calc(100vh - 120px); }
 
 .displayUno {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
 
 .botonUno {
-    background-color: #d0ac8d;
-    color: #fff;
-}
+  background-color: #d0ac8d;
+  color: #fff; }
 
 .sectionDos {
-    margin: 30px auto;
-    text-align: center;
-}
-
-.sectionDos h3 {
-    margin-bottom: 10px;
-}
+  margin: 30px auto;
+  text-align: center; }
+  .sectionDos h3 {
+    margin-bottom: 10px; }
 
 .sectionTres {
-    display: flex;
-    flex-direction: row;
-    background-color: #847c5d;
-    color: #fff;
-}
-
-.sectionTres img {
-    width: 50%;
-}
+  display: flex;
+  flex-direction: row;
+  background-color: #847c5d;
+  color: #fff; }
+  .sectionTres img {
+    width: 50%; }
 
 .sectionTresTexto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 40%;
-}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%; }
 
 .productosDestacados {
-    margin: 40px auto;
-}
-
-.productosDestacados h3 {
+  margin: 40px auto; }
+  .productosDestacados h4 {
     margin-bottom: 20px;
-    text-align: center;
-}
+    text-align: center; }
 
 .divFooter {
-    background-color: #a86d4d;
-    color: #fff;
-}
+  background-color: #a86d4d;
+  color: #fff; }
 
 .footerEsp ul li a {
-    color: #fff;
-}
-
-.footerEsp ul li a:hover {
-    color: #dcdbdb;
-}
+  color: #fff; }
+  .footerEsp ul li a:hover {
+    color: #dcdbdb; }
 
 @media (max-width: 768px) {
-    .botonB {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .botonesCentro {
-        justify-content: center;
-    }
-
-    .sectionDos {
-        width: 80%;
-    }
-
-    .sectionTres {
-        display: flex;
-        flex-direction: column;
-    }
-
+  .botonB {
+    width: 100%;
+    margin-bottom: 10px; }
+  .botonesCentro {
+    justify-content: center; }
+  .sectionDos {
+    width: 80%; }
+  .sectionTres {
+    display: flex;
+    flex-direction: column; }
     .sectionTres img {
-        width: 100%;
-    }
-
-    .sectionTresTexto {
-        padding: 30px 0;
-        width: 80%;
-        text-align: center;
-    }
-
+      width: 100%; }
+  .sectionTresTexto {
+    padding: 30px 0;
+    width: 80%;
+    text-align: center; }
     .sectionTresTexto h3 {
-        margin-bottom: 20px;
-    }
-
+      margin-bottom: 20px; }
     .sectionTresTexto .botonUno {
-        margin-top: 10px;
-    }
-}
+      margin-top: 10px; } }
 
 @media screen and (min-width: 769px) {
-    .sectionTresTexto {
-        padding: 20px 0;
-    }
-}
+  .sectionTresTexto {
+    padding: 20px 0; } }
+
+.menu {
+  color: red; }
+
+.contacto {
+  color: blue; }
+
+.redes {
+  color: yellow; }
+
+.tituloHeaderUno {
+  background-color: purple;
+  font-size: 30px;
+  color: white; }
+
+.primerEstilo, .segundoEstilo {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: right; }
+
+.segundoEstilo {
+  font-size: 40px;
+  color: aqua; }
+
+.parrafosConEstilo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  color: bisque; }

@@ -1,0 +1,28 @@
+// Map
+
+$mapFooter: (
+    menu: red,
+    contacto: blue,
+    redes: yellow
+);
+
+@each $seccionFoot,
+$color in $mapFooter {
+    .#{$seccionFoot} {
+        color: $color;
+    }
+}
+
+// Map-Get
+
+$estilo: (
+    color: purple,
+    tamFuente: 30px,
+    colorDiseno: white,
+);
+
+.tituloHeaderUno {
+    background-color: map-get($map: $estilo, $key: color);
+    font-size: map-get($map: $estilo, $key: tamFuente);
+    color: map-get($map: $estilo, $key: colorDiseno);
+}
